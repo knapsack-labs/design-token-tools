@@ -5,7 +5,7 @@ importers:
   .:
     dependencies:
       '@knapsack/eslint-config-starter':
-        specifier: 3.111.0
+        specifier: ^3.111.0
         version: 3.111.0(prettier@2.8.8)
       '@knapsack/monorepo-tools':
         specifier: ^3.111.0
@@ -14,7 +14,7 @@ importers:
         specifier: ^3.111.0
         version: 3.111.0
       '@knapsack/typescript-config-starter':
-        specifier: 3.111.0
+        specifier: ^3.111.0
         version: 3.111.0
       auto:
         specifier: ^10.44.0
@@ -44,7 +44,7 @@ importers:
         specifier: ^3.109.1
         version: 3.109.1
       '@knapsack/file-utils':
-        specifier: 3.111.0
+        specifier: ^3.111.0
         version: 3.111.0
       '@knapsack/utils':
         specifier: ^3.109.1
@@ -54,16 +54,16 @@ importers:
         version: 4.17.21
     devDependencies:
       '@knapsack/eslint-config-starter':
-        specifier: 3.111.0
+        specifier: ^3.111.0
         version: 3.111.0(prettier@2.8.8)
       '@knapsack/prettier-config':
-        specifier: 3.111.0
+        specifier: ^3.111.0
         version: 3.111.0
       '@knapsack/test-ava':
-        specifier: 3.111.0
+        specifier: ^3.111.0
         version: 3.111.0(@babel/core@7.21.4)
       '@knapsack/typescript-config-starter':
-        specifier: 3.111.0
+        specifier: ^3.111.0
         version: 3.111.0
       '@types/lodash':
         specifier: ^4.14.194
@@ -75,7 +75,7 @@ importers:
         specifier: ^8.38.0
         version: 8.38.0
       sass:
-        specifier: 1.54.0
+        specifier: ^1.54.0
         version: 1.54.0
       tsup:
         specifier: ^6.7.0
@@ -99,7 +99,7 @@ importers:
         specifier: ^4.17.21
         version: 4.17.21
       memoizee:
-        specifier: 0.4.15
+        specifier: ^0.4.15
         version: 0.4.15
       superstruct:
         specifier: ^1.0.3
@@ -109,25 +109,25 @@ importers:
         version: 1.3.0
     devDependencies:
       '@knapsack/eslint-config-starter':
-        specifier: 3.111.0
+        specifier: ^3.111.0
         version: 3.111.0(prettier@2.8.8)
       '@knapsack/prettier-config':
-        specifier: 3.111.0
+        specifier: ^3.111.0
         version: 3.111.0
       '@knapsack/test-ava':
-        specifier: 3.111.0
+        specifier: ^3.111.0
         version: 3.111.0(@babel/core@7.21.4)
       '@knapsack/typescript-config-starter':
-        specifier: 3.111.0
+        specifier: ^3.111.0
         version: 3.111.0
       '@types/lodash':
         specifier: ^4.14.194
         version: 4.14.194
       '@types/memoizee':
-        specifier: 0.4.8
+        specifier: ^0.4.8
         version: 0.4.8
       '@types/node':
-        specifier: 16.11.46
+        specifier: ^16.11.46
         version: 16.11.46
       ava:
         specifier: ^4.3.1
@@ -161,16 +161,16 @@ importers:
         version: 1.3.0
     devDependencies:
       '@knapsack/eslint-config-starter':
-        specifier: 3.111.0
+        specifier: ^3.111.0
         version: 3.111.0(prettier@2.8.8)
       '@knapsack/prettier-config':
-        specifier: 3.111.0
+        specifier: ^3.111.0
         version: 3.111.0
       '@knapsack/test-ava':
-        specifier: 3.111.0
+        specifier: ^3.111.0
         version: 3.111.0(@babel/core@7.21.4)
       '@knapsack/typescript-config-starter':
-        specifier: 3.111.0
+        specifier: ^3.111.0
         version: 3.111.0
       '@types/lodash':
         specifier: ^4.14.194
@@ -191,13 +191,13 @@ importers:
   packages/token-format-utils:
     devDependencies:
       '@knapsack/eslint-config-starter':
-        specifier: 3.111.0
+        specifier: ^3.111.0
         version: 3.111.0(prettier@2.8.8)
       '@knapsack/prettier-config':
-        specifier: 3.111.0
+        specifier: ^3.111.0
         version: 3.111.0
       '@knapsack/typescript-config-starter':
-        specifier: 3.111.0
+        specifier: ^3.111.0
         version: 3.111.0
       eslint:
         specifier: ^8.38.0
