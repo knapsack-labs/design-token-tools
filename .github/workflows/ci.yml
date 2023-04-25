@@ -46,7 +46,7 @@ jobs:
         run: node ./node_modules/.bin/monorepo-tools test-monorepo-pkgs-json
 
       - name: Ensure clean git repo
-        run: ./node_modules/@knapsack/monorepo-tools/scripts/ensure-clean-git-repo.sh
+        run: bash ./node_modules/@knapsack/monorepo-tools/scripts/ensure-clean-git-repo.sh
 
       # - name: Auto ShipIt
       #   run: ./node_modules/.bin/auto shipit
