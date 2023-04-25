@@ -1,0 +1,10 @@
+{
+  "extends": "@knapsack/typescript-config-starter/tsconfig.build.json",
+  "compilerOptions": {
+    "strict": true,
+    "module": "ESNext",
+    "noImplicitAny": true,
+    "outDir": "./dist"
+  },
+  "include": ["./src"]
+}

@@ -1,0 +1,54 @@
+name: CI
+
+on:
+  push:
+    branches: ['main']
+  pull_request:
+    types: [opened, synchronize]
+
+jobs:
+  build:
+    name: Build and Test
+    timeout-minutes: 15
+    runs-on: ubuntu-latest
+    # To use Remote Caching, uncomment the next lines and follow the steps below.
+    env:
+      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+      HUSKY: 0
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v3
+        with:
+          # Number of commits to fetch. 0 indicates all history for all branches and tags - needed for `auto`
+          fetch-depth: 0
+          token: ${{ secrets.KS_BOT_GITHUB_TOKEN_NEW }}
+
+      - uses: pnpm/action-setup@v2
+
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - run: pnpm run build
+      - run: pnpm run lint
+      - run: pnpm run test
+
+      - name: Format packages
+        run: pnpm run format-pkgs
+
+      - name: Test all package.json
+        run: node ./node_modules/.bin/monorepo-tools/bin.js test-monorepo-pkgs-json
+
+      - name: Ensure clean git repo
+        run: ./node_modules/@knapsack/monorepo-tools/scripts/ensure-clean-git-repo.sh
+
+      # - name: Auto ShipIt
+      #   run: ./node_modules/.bin/auto shipit
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.KS_BOT_GITHUB_TOKEN_NEW }}

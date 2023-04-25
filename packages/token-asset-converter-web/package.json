@@ -1,0 +1,53 @@
+{
+  "name": "@knapsack-labs/token-asset-converter-web",
+  "description": "",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./package": "./package.json",
+    "./package.json": "./package.json"
+  },
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup ./src/index.ts && npm run build-dts-maps",
+    "build-dts-maps": "tsc",
+    "lint": "eslint ./",
+    "test": "ava"
+  },
+  "dependencies": {
+    "@knapsack-labs/token-data": "workspace:*",
+    "@knapsack/color-utils": "^3.109.1",
+    "@knapsack/file-utils": "^3.111.0",
+    "@knapsack/utils": "^3.109.1",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@knapsack/eslint-config-starter": "^3.111.0",
+    "@knapsack/prettier-config": "^3.111.0",
+    "@knapsack/test-ava": "^3.111.0",
+    "@knapsack/typescript-config-starter": "^3.111.0",
+    "@types/lodash": "^4.14.194",
+    "ava": "^4.3.1",
+    "eslint": "^8.38.0",
+    "sass": "^1.54.0",
+    "tsup": "^6.7.0",
+    "typescript": "^5.0.0"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "url": "https://github.com/knapsack-labs/design-token-tools",
+    "directory": "packages/token-asset-converter-web",
+    "type": "git"
+  }
+}

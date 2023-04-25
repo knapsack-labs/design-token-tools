@@ -1,0 +1,9 @@
+{
+  "extends": "@knapsack/typescript-config-starter/tsconfig.declarations-only.json",
+  "compilerOptions": {
+    "strict": true,
+    "module": "ESNext",
+    "outDir": "./dist"
+  },
+  "include": ["./src"]
+}

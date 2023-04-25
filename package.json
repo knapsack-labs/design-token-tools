@@ -1,0 +1,35 @@
+{
+  "name": "@knapsack-labs/design-token-tools",
+  "description": "Tools for helping working Design Token files",
+  "private": true,
+  "scripts": {
+    "build": "lerna run build",
+    "format-pkgs": "syncpack format && syncpack fix-mismatches && syncpack set-semver-ranges && syncpack lint-semver-ranges",
+    "lint": "lerna run lint",
+    "start": "lerna watch -- lerna run build --scope=\"$LERNA_PACKAGE_NAME\" --include-dependents",
+    "test": "lerna run test"
+  },
+  "author": "KnapsackBot 53622700+KnapsackBot@users.noreply.github.com",
+  "bugs": "https://github.com/knapsack-labs/design-token-tools/issues",
+  "dependencies": {
+    "@knapsack/eslint-config-starter": "^3.111.0",
+    "@knapsack/monorepo-tools": "^3.111.0",
+    "@knapsack/prettier-config": "^3.111.0",
+    "@knapsack/typescript-config-starter": "^3.111.0",
+    "auto": "^10.44.0",
+    "eslint": "^8.38.0",
+    "lerna": "^6.6.1",
+    "nx": "^15.9.2",
+    "syncpack": "^9.8.6",
+    "typescript": "^5.0.0"
+  },
+  "homepage": "https://github.com/knapsack-labs/design-token-tools#readme",
+  "keywords": [
+    "design-systems",
+    "design-tokens",
+    "knapsack"
+  ],
+  "license": "MIT",
+  "packageManager": "pnpm@8.3.0",
+  "repository": "knapsack-labs/design-token-tools.git"
+}
