@@ -48,7 +48,7 @@ jobs:
       - name: Ensure clean git repo
         run: bash ./node_modules/@knapsack/monorepo-tools/scripts/ensure-clean-git-repo.sh
 
-      # - name: Auto ShipIt
-      #   run: ./node_modules/.bin/auto shipit
-      #   env:
-      #     GITHUB_TOKEN: ${{ secrets.KS_BOT_GITHUB_TOKEN_NEW }}
+      - name: Auto ShipIt
+        run: ./node_modules/.bin/auto shipit
+        env:
+          GITHUB_TOKEN: ${{ secrets.KS_BOT_GITHUB_TOKEN_NEW }}
