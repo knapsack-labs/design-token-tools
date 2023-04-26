@@ -1,3 +1,17 @@
+# v1.0.3 (Wed Apr 26 2023)
+
+#### 🐛 Bug Fix
+
+- `@knapsack-labs/token-asset-converter-web`, `@knapsack-labs/token-data`, `@knapsack-labs/token-format-spec`, `@knapsack-labs/token-format-utils`
+  - Initial docs for packages [#2](https://github.com/knapsack-labs/design-token-tools/pull/2) ([@illepic](https://github.com/illepic) [@EvanLovely](https://github.com/EvanLovely))
+
+#### Authors: 2
+
+- Christopher Bloom ([@illepic](https://github.com/illepic))
+- Evan Lovely ([@EvanLovely](https://github.com/EvanLovely))
+
+---
+
 # v1.0.2 (Wed Apr 26 2023)
 
 #### 🐛 Bug Fix
