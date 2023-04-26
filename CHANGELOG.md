@@ -1,3 +1,15 @@
+# v1.0.2 (Wed Apr 26 2023)
+
+#### 🐛 Bug Fix
+
+- Initial doc updates [#1](https://github.com/knapsack-labs/design-token-tools/pull/1) ([@illepic](https://github.com/illepic))
+
+#### Authors: 1
+
+- Christopher Bloom ([@illepic](https://github.com/illepic))
+
+---
+
 # v1.0.1 (Tue Apr 25 2023)
 
 #### ⚠️ Pushed to `main`
