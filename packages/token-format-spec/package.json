@@ -1,7 +1,7 @@
 {
   "name": "@knapsack-labs/token-format-spec",
   "description": "",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",

@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/lerna.json",
   "loglevel": "verbose",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "useWorkspaces": true,
   "useNx": true,
   "npmClient": "pnpm"
