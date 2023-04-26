@@ -50,7 +50,7 @@ The tools in this monorepo - which are published as separate packages - make wor
 
 `/packages/token-data`
 
-> The main utility for parsing raw tokens json into a class that makes reading and manipulating token data easier.
+> The main utility for parsing raw tokens json into a flattened, de-referenced, developer-friendly intermediate format.
 
 ### @knapsack-labs/token-asset-converter-web
 

@@ -18,8 +18,6 @@ yarn add @knapsack-labs/token-format-spec
 
 ## Use
 
-For example, `validateName()`, which is a default export:
-
 ```ts
 import { validateTokenSrcGroup } from '@knapsack-labs/token-format-spec';
 import { TokenSrcGroup } from '@knapsack-labs/token-format-spec';
