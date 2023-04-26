@@ -10,12 +10,6 @@ Using npm:
 npm install --save @knapsack-labs/token-asset-converter-web
 ```
 
-Using yarn:
-
-```bash
-yarn add @knapsack-labs/token-asset-converter-web
-```
-
 ## Use
 
 ```ts

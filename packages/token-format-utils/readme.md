@@ -10,12 +10,6 @@ Using npm:
 npm install --save @knapsack-labs/token-format-utils
 ```
 
-Using yarn:
-
-```bash
-yarn add @knapsack-labs/token-format-utils
-```
-
 ## Use
 
 ```ts
