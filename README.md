@@ -32,28 +32,23 @@ Tokens can also represent more complex concepts:
 
 The tools in this monorepo - which are published as separate packages - make working with and converting your design token data a breeze! Navigate to each folder below for installation instructions and instructions on how to use.
 
-## Packages
+## Main Packages
 
-### @knapsack-labs/token-format-utils
-
-`/packages/token-format-utils`
-
-> Share utilities between the following packages.
-
-### @knapsack-labs/token-format-spec
-
-`/packages/token-format-spec`
+### [@knapsack-labs/token-format-spec](./packages/token-format-spec)
 
 > Typescript types describing the shape and behavior of token spec data.
 
-### @knapsack-labs/token-data
-
-`/packages/token-data`
+### [@knapsack-labs/token-data](./packages/token-data)
 
 > The main utility for parsing raw tokens json into a flattened, de-referenced, developer-friendly intermediate format.
 
-### @knapsack-labs/token-asset-converter-web
+## Misc Packages
 
-`/packages/token-format-utils`
+### [@knapsack-labs/token-asset-converter-web](./packages/token-format-utils)
 
 > Convert token data into web assets like CSS, Sass, Less.
+
+### [@knapsack-labs/token-format-utils](./packages/token-format-utils)
+
+> Share utilities between the following packages.
+
